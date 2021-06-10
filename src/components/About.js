@@ -126,7 +126,7 @@ const Description = styled.div`
     margin-right: 24px;
     height: 300px;
     width: 300px;
-    background: url("/images/profile-pic.jpg") no-repeat center center/cover;
+    background: url("/images/profile-pic.png") no-repeat center center/cover;
     border-radius: 50%;
   }
   .who {
