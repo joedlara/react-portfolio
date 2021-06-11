@@ -56,12 +56,13 @@ const About = (props) => {
             <div className="who">
               <h1>Who Am I?</h1>
               <p>
-                I'm fullstack developer based in Los Angeles. My favorite thing
-                to work on is definitely has to be the front-end. I've been
-                working in web development for over 5 years now, and seeing
-                projects and their features come to life is still extremely
-                satisfying. My goal is always to deliver that fastest and most
-                responsive web and even mobile apps.
+                A full stack developer based in Los, Angeles, my favorite and
+                strongest area of expertise is working the front-end. I’ve been
+                working in development for 5 years now, and seeing projects and
+                their features come to life continues to be invigorating. My
+                goal is to always deliver the fastest, most responsive web and
+                mobile apps whilst staying current with the ever changing tech
+                scene.
               </p>
             </div>
           </Description>
@@ -126,7 +127,7 @@ const Description = styled.div`
     margin-right: 24px;
     height: 300px;
     width: 300px;
-    background: url("/images/profile-pic.png") no-repeat center center/cover;
+    background: url("/images/profile-pic2.png") no-repeat center center/cover;
     border-radius: 50%;
   }
   .who {

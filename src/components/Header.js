@@ -109,6 +109,7 @@ const Container = styled.div`
   background: #121111;
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   position: fixed;
+  width: 100%;
   z-index: 100;
 `
 const Nav = styled.nav`
@@ -152,6 +153,7 @@ const Nav = styled.nav`
 `
 
 const Socials = styled.div`
+  align-items: center;
   position: relative;
   font-weight: 600;
   color: #d6d6d6;
@@ -175,7 +177,16 @@ const Socials = styled.div`
     }
   }
   a {
-    margin: 6px;
+    margin: auto 4px;
+  }
+  @media (max-width: 768px) {
+    .home-button {
+      font-size: 1.9em;
+    }
+    img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
   }
 `
 

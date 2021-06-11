@@ -11,11 +11,6 @@ const MobileModal = (props) => {
       title: "projects",
       link: "projects",
     },
-    {
-      title: "contact",
-      link: "",
-      mail: "mailto:joedlara18@gmail.com",
-    },
   ]
   const handleLink = (e) => {
     props.handleClick(e)
@@ -35,7 +30,6 @@ const MobileModal = (props) => {
                     smooth={true}
                     offset={50}
                     duration={1000}
-                    href={item.mail}
                     offset={-70}
                     onClick={(event) => handleLink(event)}
                   >
@@ -43,6 +37,9 @@ const MobileModal = (props) => {
                   </Link>
                 </li>
               ))}
+              <a className="contact" href="mailto:joedlara18@gmail.com">
+                contact
+              </a>
             </ul>
           </MobileMenu>
         </Container>
@@ -59,7 +56,7 @@ const MobileMenu = styled.div`
   flex-direction: column;
   width: 75%;
   position: fixed;
-  top: 50px;
+  top: 30px;
   z-index: 1;
   left: 0;
   opacity: 1;
@@ -86,6 +83,9 @@ const MobileMenu = styled.div`
     border-right: 3px solid rgba(51, 51, 51, 0.2);
     left: 0;
     height: 100vh;
+  }
+  .contact {
+    margin: 30px 20px;
   }
 `
 
